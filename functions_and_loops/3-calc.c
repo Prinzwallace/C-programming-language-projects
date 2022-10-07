@@ -6,8 +6,9 @@ float div(void);
 float sub(void);
 
 int main(){
-int a;
-printf("Hello what do you wish to calculate today\n1. sum\n2. mul\n3. div\n4. sub\n(user): ");
+int a, i = 0;
+while (i < 6){
+printf("Hello what do you wish to calculate today\n1. sum\n2. mul\n3. div\n4. sub\n0. exit\n(user): ");
 scanf("%d", &a);
 if (a > 0 && a <= 1){
 sum();
@@ -22,7 +23,8 @@ else if (a > 3 && a <= 4){
 sub();
 }
 else{
-printf("wrong input. pls restart me and try again\n");
+break;
+}
 }
 return (0);
 }
