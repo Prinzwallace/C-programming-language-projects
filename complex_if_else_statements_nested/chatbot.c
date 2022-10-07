@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//a short spawned chatbot with complex if else statements
 int main()
 {
 char name[30];

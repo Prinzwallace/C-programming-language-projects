@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//a simple program built using if else statements that tells if a user is young, matured or old.
 int main()
 {
 int age;

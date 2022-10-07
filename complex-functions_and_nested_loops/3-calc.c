@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/** This is a more advanced C calculator app
+unlike the one at functions directory
+This one has the ability to go back, exit and
+run multiple calculations which only ends
+based on users wish. calculations can also
+be refreshed to begin a new one
+*/
 float sum(void);
 float mul(void);
 float div(void);

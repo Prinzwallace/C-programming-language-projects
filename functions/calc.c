@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//a simple calculator app built using functions and if else statements
 float sum(void);
 float mul(void);
 float div(void);

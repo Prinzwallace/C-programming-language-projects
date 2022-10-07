@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//a simple ASCII calculator that gives ASCII value of numbers
 int main()
 {
 	char c;

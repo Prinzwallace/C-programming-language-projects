@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//A program that prints multiplication table based on user's input.this built using if else statements, loops and functions.
 int mul(void);
 int rep(void);
 

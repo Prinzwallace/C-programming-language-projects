@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//a simple square calculator
 int main ()
 {
 	int eggs;
